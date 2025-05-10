@@ -1,30 +1,19 @@
 ---
 title: 自述
-description: 这是一份站长的自述报告，请查收。
+description: This is something about me.
 comments: false
 ---
 
-## 关于 Gyoza
+## 关于 我
 
-Gyoza 是一个使用 Astro 和 React 开发的博客主题。Gyoza 借鉴了 [Shiro](https://github.com/innei/Shiro) 和一些网站的设计。
+我是 Yu，是一名**大学生**，对技术、设计和各种“能动手实现”的小项目充满兴趣。偶尔也会写写文字记录灵感和想法。
 
-Gyoza 的核心理念是简洁，快速，可爱。
+这个博客是我分享学习、项目、以及生活碎片的地方。你会看到一些写着玩的 demo，一些刚起步的想法，也可能看到某天心血来潮写下的短文。没有固定主题，但都是真实的兴趣驱动。
 
-- 在 [Markdown 示例](/posts/markdown) 中展示了 Markdown 的渲染样式
-- 可以前往 [Gyoza 使用指南](/posts/guide) 了解 Gyoza 的使用方法
+欢迎你来逛，也欢迎交流，我们一起做点好玩的东西！
 
-Gyoza 是开源的，如果你对这个项目感兴趣，欢迎前往 Gyoza 的 [Github 仓库](https://github.com/lxchapu/astro-gyoza) 来提 Issue 或者 PR。
+## 版权声明
 
-## 关于作者
+博客内的所有原创内容（包括但不限于文章、图像等）除特别声明外均采用 [知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) ，任何人都可以自由传播，但不得用于商用且必须署名并以相同方式分享。
 
-我是 lxchapu，是一名前端开发者，喜欢各种有趣的东西。欢迎访问我的个人网站 [www.lxchapu.com](https://www.lxchapu.com)，了解关于我更多的信息。
-
-## 致谢
-
-感谢以下项目：
-
-- [Astro](https://astro.build/)
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Jotai](https://jotai.org/)
+本站部分内容转载于网络，有出处的已在文中署名作者并附加原文链接，出处已不可寻的皆已标注来源于网络。若您认为本博客有部分内容侵犯了您的权益，请在联系告知，我将认真处理。
