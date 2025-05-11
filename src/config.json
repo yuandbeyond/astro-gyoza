@@ -151,11 +151,11 @@
   "analytics": {
     "enable": true,
     "google": {
-      "measurementId": ""
+      "measurementId": "G-5ZTBGL8C92"
     },
     "umami": {
-      "serverUrl": "",
-      "websiteId": ""
+      "serverUrl": "https://umami.mileomni.com",
+      "websiteId": "4cfe3fee-69ec-47f3-86f2-1a3d7ba18244"
     },
     "microsoftClarity": {
       "projectId": ""
