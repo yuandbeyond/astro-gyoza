@@ -61,13 +61,9 @@ sudo cloudflared service install eyJhIjoiNWYzYjgwNzQ1NWQyMDZkMmNiYzdmYzUyMDdkNmJ
 
 1. 安装好后，回到 Tunnels 页面，若 status 一栏显示 HEALTHY，则表示连接成功
 
-![CloudflareTunnel-7](images/CloudflareTunnel-7.png)
+![CloudflareTunnel-7](images/CloudflareTunnel-7.png) 2. 进入 configure 界面，选择 Public Hostname，点击 Add a public hostname。
 
-2. 进入 configure 界面，选择 Public Hostname，点击 Add a public hostname。
-
-![CloudflareTunnel-8](images/CloudflareTunnel-8.png)
-
-3. 选择域名，自定义一个子域名后，Type 选择 http，url 填写服务器上服务的运行地址，例如：localhost:8001。填写完成后保存。
+![CloudflareTunnel-8](images/CloudflareTunnel-8.png) 3. 选择域名，自定义一个子域名后，Type 选择 http，url 填写服务器上服务的运行地址，例如：localhost:8001。填写完成后保存。
 
 ![CloudflareTunnel-9](images/CloudflareTunnel-9.png)
 
