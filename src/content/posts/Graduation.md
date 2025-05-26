@@ -5,6 +5,7 @@ tags: [个人成长]
 category: 随想
 comments: true
 draft: false
+image: /images/Graduation-1.jpg
 ---
 
 > 离别时，愿诸事顺利。来路总有潮起潮落，这才是人生旅途的意义。——戴尔•埃文斯
