@@ -21,25 +21,25 @@ Cloudflare Tunnel 是 Cloudflare 这个赛博菩萨提供的一个免费的流�
 
 1. 登录 [CloudFlare](https://www.cloudflare.com) 官网，进入 Dashboard，选择左边菜单中的 Zero Trust。
 
-![CloudflareTunnel-1](images\CloudflareTunnel-1.png)
+![CloudflareTunnel-1](images/CloudflareTunnel-1.png)
 
 2. 在左边菜单中选择 Networks-Tunnels
 
-![CloudflareTunnel-2](images\CloudflareTunnel-2.png)
+![CloudflareTunnel-2](images/CloudflareTunnel-2.png)
 
 3. 点击 Create a tunnel
 
-![CloudflareTunnel-3](images\CloudflareTunnel-3.png)
+![CloudflareTunnel-3](images/CloudflareTunnel-3.png)
 
 ## 连接服务端
 
 1. 选择 Cloudflared，设置一个名称后，选择服务端的操作系统这里使用 Debian 演示。
 
-![CloudflareTunnel-4](images\CloudflareTunnel-4.png)
+![CloudflareTunnel-4](images/CloudflareTunnel-4.png)
 
-![CloudflareTunnel-5](images\CloudflareTunnel-5.png)
+![CloudflareTunnel-5](images/CloudflareTunnel-5.png)
 
-![CloudflareTunnel-6](images\CloudflareTunnel-6.png)
+![CloudflareTunnel-6](images/CloudflareTunnel-6.png)
 
 2. 根据页面指示，若先前未安装过 Cloudflared，则使用以下指令：
 
@@ -61,15 +61,15 @@ sudo cloudflared service install eyJhIjoiNWYzYjgwNzQ1NWQyMDZkMmNiYzdmYzUyMDdkNmJ
 
 1. 安装好后，回到 Tunnels 页面，若 status 一栏显示 HEALTHY，则表示连接成功
 
-![CloudflareTunnel-7](images\CloudflareTunnel-7.png)
+![CloudflareTunnel-7](images/CloudflareTunnel-7.png)
 
 2. 进入 configure 界面，选择 Public Hostname，点击 Add a public hostname。
 
-![CloudflareTunnel-8](images\CloudflareTunnel-8.png)
+![CloudflareTunnel-8](images/CloudflareTunnel-8.png)
 
 3. 选择域名，自定义一个子域名后，Type 选择 http，url 填写服务器上服务的运行地址，例如：localhost:8001。填写完成后保存。
 
-![CloudflareTunnel-9](images\CloudflareTunnel-9.png)
+![CloudflareTunnel-9](images/CloudflareTunnel-9.png)
 
 ## 完成
 

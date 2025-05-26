@@ -37,7 +37,7 @@ draft: false
 
 打开 [Github Benefits](https://education.github.com/discount_requests/application)，选择身份是 Student，滑动到下面填好学校，添加好学校邮箱后这个页面会提示已经绑定了学校邮箱，就可以一键填入学校，之后点 Continue。
 
-![GithubStudent-1](images\GithubStudent-1.png)
+![GithubStudent-1](images/GithubStudent-1.png)
 
 在上传照片时选择 Upload，选中英文版报告的截图并上传。
 
@@ -45,6 +45,6 @@ draft: false
 
 如果申请成功，则会即刻显示 Approved，只需要等待 3-5 个工作日，学生权益就会生效。
 
-![GithubStudent-2](images\GithubStudent-2.png)
+![GithubStudent-2](images/GithubStudent-2.png)
 
 如果申请失败，[Github Benefits](https://education.github.com/discount_requests/application) 会显示 Rejected。下面会给出认证失败的一些原因，根据原因去解决问题就好。
