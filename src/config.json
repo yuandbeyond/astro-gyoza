@@ -19,6 +19,12 @@
     "description": "",
     "socials": [
       {
+        "name": "Notes",
+        "icon": "icon-ghost",
+        "url": "https://notes.mileomni.com/",
+        "color": "rgb(123, 104, 238)"
+      },
+      {
         "name": "Github",
         "icon": "icon-github",
         "url": "https://github.com/yuandbeyond",
