@@ -3,7 +3,8 @@ title: 使用 CloudFlare Tunnel 快速实现内网穿透
 date: 2025-05-10
 tags:
   - 内网穿透
-category: 教程
+category:
+  - Posts
 comments: true
 draft: false
 image: https://img.mileomni.com/f9qAAsEpE82Wqaib.jpg

@@ -62,33 +62,6 @@ export function slugify(text: string) {
   return text.replace(/\./g, '').replace(/\s/g, '-').toLowerCase()
 }
 
-// 获取所有分类
-export async function getAllCategories() {
-  const newestPosts = await getNewestPosts()
-
-  const allCategories = newestPosts.reduce<{ slug: string; name: string; count: number }[]>(
-    (acc, cur) => {
-      if (cur.data.category) {
-        const slug = slugify(cur.data.category)
-        const index = acc.findIndex((category) => category.slug === slug)
-        if (index === -1) {
-          acc.push({
-            slug,
-            name: cur.data.category,
-            count: 1,
-          })
-        } else {
-          acc[index].count += 1
-        }
-      }
-      return acc
-    },
-    [],
-  )
-
-  return allCategories
-}
-
 // 获取所有标签
 export async function getAllTags() {
   const newestPosts = await getNewestPosts()

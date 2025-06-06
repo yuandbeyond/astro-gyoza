@@ -3,11 +3,10 @@ import type { GetStaticPaths } from 'astro'
 import PageLayout from '@/layouts/PageLayout.astro'
 import PostList from '@/components/post/PostList.astro'
 import PostPagination from '@/components/post/PostPagination.astro'
-import { getSortedPosts, getHotTags, getAllCategories, getAllTags } from '@/utils/content'
+import { getSortedPosts, getHotTags, getAllTags } from '@/utils/content'
 import appConfig from '@/config.json'
 import SectionBlock from '@/components/SectionBlock.astro'
 import TagList from '@/components/TagList.astro'
-import CategoryList from '@/components/CategoryList.astro'
 import type { CollectionEntry } from 'astro:content'
 import Hero from '@/components/hero/Hero.astro'
 
@@ -38,7 +37,6 @@ const { currentPage, totalPage, data } = Astro.props
 
 const hotTags = await getHotTags()
 const allTags = await getAllTags()
-const allCategories = await getAllCategories()
 
 const getPageUrl = (page: number) => {
   if (page === 1) return '/'
@@ -62,9 +60,7 @@ const getPageUrl = (page: number) => {
       </div>
       <div>
         <aside class="md:sticky md:top-20 space-y-10">
-          <SectionBlock title="分类">
-            <CategoryList categories={allCategories} />
-          </SectionBlock>
+
           <SectionBlock title="热门标签">
             <TagList tags={hotTags} />
             {

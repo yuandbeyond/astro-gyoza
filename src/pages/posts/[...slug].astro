@@ -40,14 +40,7 @@ const { headings, Content, remarkPluginFrontmatter } = await current.render()
 
 const mdSlug = `/posts/${current.slug}`
 
-const mdDescription = concat(current.data.category || '', current.data.tags.join(', '))
-
-function concat(str1: string, str2: string, sep = ' / ') {
-  if (str1 && str2) return str1 + sep + str2
-  if (str1) return str1
-  if (str2) return str2
-  return ''
-}
+const mdDescription = current.data.tags.join(', ')
 
 const lastMod = current.data.lastMod || current.data.date
 ---
@@ -76,11 +69,7 @@ const lastMod = current.data.lastMod || current.data.date
           words={remarkPluginFrontmatter.words}
           readingMinutes={remarkPluginFrontmatter.readingMinutes}
         />
-        <PostArchiveInfo
-          class="justify-center"
-          category={current.data.category}
-          tags={current.data.tags}
-        />
+        <PostArchiveInfo class="justify-center" tags={current.data.tags} />
         <div>
           <Outdate lastMod={lastMod} client:idle />
         </div>

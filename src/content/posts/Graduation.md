@@ -3,7 +3,8 @@ title: 毕业是一次象征性死亡
 date: 2025-05-26
 tags:
   - 个人成长
-category: 随想
+category:
+  - Posts
 comments: true
 draft: false
 image: https://img.mileomni.com/YpB12CHJyd5iW3A_.jpeg

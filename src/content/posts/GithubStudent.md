@@ -4,7 +4,8 @@ date: 2025-05-10
 tags:
   - 经验分享
   - 开发者工具
-category: 教程
+category:
+  - Posts
 comments: true
 draft: false
 image: https://img.mileomni.com/BVeZoIGPPP5JuuzG.jpg
